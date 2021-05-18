@@ -10,11 +10,11 @@ function setup(){
   
   createCanvas(400,400);
   
-// Moving background
+// Plano de fundo móvel
 garden=createSprite(200,200);
 garden.addImage(gardenImg);
 
-//creating boy running
+//criar menino correndo
 rabbit = createSprite(180,340,30,30);
 rabbit.scale =0.09;
 rabbit.addImage(rabbitImg);
